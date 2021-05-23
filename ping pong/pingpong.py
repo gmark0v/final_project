@@ -43,9 +43,9 @@ class playir2(objekt):
             self.rect.y -= 6
 g2g = playir2("sprite1.png", 636, 100, 65 ,65)
 #?# усилители
-wtrmln = objekt("wtrmln.png", 320, 245, 45, 45)
-apl = objekt("apl.png", 345, 245, 45, 45)
-mrr = objekt("mrr.png", 390, 200, 45, 45)
+wtrmln = objekt("wtrmln.png", 520, 245, 45, 45)
+apl = objekt("apl.png", 445, 245, 45, 45)
+mrr = objekt("mrr.png", 490, 200, 45, 45)
 #?# скорость мяча
 bsy = 3.5
 bsx = -3.5
