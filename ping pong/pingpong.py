@@ -126,12 +126,12 @@ while gm:
     if myach.rect.x > g2g.rect.x + 75:
         myach.rect.x = 300
         myach.rect.y = 200
-    #    pl1numbr += 1
+        pl1numbr += 1
     #?# попадание игрока 1
     if myach.rect.x < gg.rect.x - 75:
         myach.rect.x = 300
         myach.rect.y = 200
-    #    pl2numbr += 1
+        pl2numbr += 1
     #?
     ulos = font.render("Игрок 1 проиграл", True, (255, 255, 255))
     ulos2 = font.render("Игрок 2 проиграл", True, (255, 255, 255))
