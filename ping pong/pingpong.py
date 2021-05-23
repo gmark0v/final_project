@@ -106,22 +106,24 @@ while gm:
         bsy *= -1
         mrr.rect.x = randint(70, 600)
         mrr.rect.y = randint(70, 400)
+        print(str(bsy) + " зеркало")
+        print(str(bsx) + " зеркало")
     #?#столкновение мяча и арбуза
     if sprite.collide_rect(myach, wtrmln): 
         bsy *= 0.75
         bsx *= 0.75
         wtrmln.rect.x = randint(70, 600)
         wtrmln.rect.y = randint(70, 400)
-        print(bsy)
-        print(bsx)
+        print(str(bsy) + " арбуз")
+        print(str(bsx) + " арбуз")
     #?# столкновение мяча и яблока
     if sprite.collide_rect(myach, apl): 
-        bsy *= 1.25
-        bsx *= 1.25
+        bsy /= 0.75
+        bsx /= 0.75
         apl.rect.x = randint(70, 600)
         apl.rect.y = randint(70, 400)
-        print(bsy)
-        print(bsx)
+        print(str(bsy) + " яблоко")
+        print(str(bsx) + " яблоко")
     #?# попадание игркоа 2
     if myach.rect.x > g2g.rect.x + 75:
         myach.rect.x = 300
