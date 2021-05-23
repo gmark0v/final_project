@@ -1,2 +1,1 @@
-# ping-pong
-тут делают пин понг
+# pingus-pongus
